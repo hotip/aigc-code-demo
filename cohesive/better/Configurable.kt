@@ -1,3 +1,5 @@
+package better
+
 class Configurable: openapi.Configurable {
     private val component = Component(AppSettings.getInstance())
     override fun getPanel(): JComponent = component.panel

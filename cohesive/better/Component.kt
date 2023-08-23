@@ -1,3 +1,5 @@
+package better
+
 class Component(settings: AppSettings) {
     val panel = JPanel()
     private val openAIKeyField = JTextField(settings.getOpenAIKey())

@@ -1,3 +1,4 @@
+package bad
 
 class Configurable: openapi.Configurable {
     private val component = Component(AppSettings.getInstance())
